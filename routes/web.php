@@ -25,4 +25,5 @@ Route::get('cerrar-sesion', 'UsersController@logout')->name('pets.logout');
 
 Route::get('iniciar-sesion', 'UsersController@login')->name('login');
 
+
 Route::post('iniciar-sesion', 'UsersController@authenticate')->name('users.authenticate');
